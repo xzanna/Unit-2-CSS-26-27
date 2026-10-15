@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Profile</title>
+
+    <!-- This ONE line decides how the whole page looks.
+         rel="stylesheet" = "this file is CSS"
+         href="..."       = where the CSS file lives -->
+    <!-- <link rel="stylesheet" href="themes/neon.css"> -->
+<style>/* =========================================================
+   ARCADE THEME  ·  ready-made skin for Lesson 1
+   You don't need to understand every line yet.
+   By the end of Unit 2, you will.
+   ========================================================= */
+
+body {
+    background-color: #1a1033;          /* deep purple cabinet */
+    color: #f5f0ff;                     /* near-white text */
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 24px;
+}
+
+header {
+    border: 4px solid #ffd23f;          /* gold marquee frame */
+    padding: 12px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffd23f;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    color: #3ef0c8;                     /* mint */
+    text-transform: uppercase;
+}
+
+.tagline {
+    color: #c9b8ff;
+    margin: 6px 0 0;
+}
+
+.player-card {
+    border: 4px dashed #3ef0c8;
+    padding: 4px 20px 20px;
+    margin-top: 20px;
+}
+
+.tag {
+    background-color: #ff5ca8;          /* hot pink pill */
+    color: #1a1033;
+    padding: 2px 8px;
+}
+
+.stat {
+    color: #ffd23f;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffd23f;
+    color: #1a1033;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    color: #c9b8ff;
+    text-align: center;
+    margin-top: 24px;
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>NovaBlade</h1>
+        <p class="tagline">Ranked #12 &middot; Season 7</p>
+    </header>
+
+    <main>
+        <section class="player-card">
+            <h2>Player Stats</h2>
+            <p>Main game: <span class="tag">Star Racers</span></p>
+            <p>Wins: <span class="stat">248</span></p>
+            <p>Win rate: <span class="stat">61%</span></p>
+            <a class="btn" href="#">Challenge Me</a>
+        </section>
+
+        <section>
+            <h2>About</h2>
+            <p style="background-color: #c9b8ff;">Team captain. Night owl. Never rage-quits.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NovaBlade</p>
+    </footer>
+
+</body>
+</html>
