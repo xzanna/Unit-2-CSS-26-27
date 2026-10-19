@@ -1,0 +1,22 @@
+h1, h2{
+    font-family: 'Trebuchet', sans-serif;
+}
+.player-card p{
+    color: crimson;
+}
+
+.btn {
+    background-color: yellow;
+}
+#banner {
+    border-bottom: 9px solid #5ADB8C;
+}
+.about {
+    font-style: italic;
+}
+.tag, .stat {
+    font-weight: bold;
+}
+footer {
+    color: #AEC0D8;
+}
